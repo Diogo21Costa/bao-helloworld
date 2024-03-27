@@ -1,7 +1,7 @@
 #include <config.h>
 
-VM_IMAGE(baremetal_image, XSTR(BAO_WRKDIR_IMGS/baremetal-linux-shmem-setup/baremetal.bin));
-VM_IMAGE(linux_image, XSTR(BAO_WRKDIR_IMGS/baremetal-linux-shmem-setup/linux-shmem.bin));
+VM_IMAGE(baremetal_image, XSTR(BUILD_GUESTS_DIR/baremetal-linux-shmem-setup/baremetal.bin));
+VM_IMAGE(linux_image, XSTR(BUILD_GUESTS_DIR/baremetal-linux-shmem-setup/linux-shmem.bin));
 
 struct config config = {
     
